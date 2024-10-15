@@ -17,7 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 
-
+// Pantalla de pedido de pizza
 @Composable
 fun PedidoPizzaScreen() {
     var total by remember { mutableStateOf(10) } // Pedido base de 10 euros
@@ -34,14 +34,17 @@ fun PedidoPizzaScreen() {
         verticalArrangement = Arrangement.Top
 
     ) {
+        // Título de la pantalla
         Text(
             text = stringResource(R.string.pedido_de_pizza),
             style = MaterialTheme.typography.headlineLarge,
             textAlign = TextAlign.Center,
             modifier = Modifier.fillMaxWidth())
 
+        // Padding de 16dp entre el título y los ingredientes
         Spacer(modifier = Modifier.height(16.dp))
 
+        // Mostrar los ingredientes con checkboxes
         ingredientes.forEachIndexed { index, ingrediente ->
             Row(
                 modifier = Modifier
@@ -67,8 +70,10 @@ fun PedidoPizzaScreen() {
         // Padding de 32dp entre los ingredientes y el total
         Spacer(modifier = Modifier.height(32.dp))
 
+        // Mostrar el total
         Text(text = stringResource(R.string.total, total), style = MaterialTheme.typography.displayLarge)
 
+        // Fila para mostrar las imagenes de los ingredientes seleccionados
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -96,6 +101,7 @@ fun PedidoPizzaScreen() {
     }
 }
 
+// Preview de la pantalla
 @Preview(showBackground = true)
 @Composable
 fun PedidoPizzaScreenPreview() {

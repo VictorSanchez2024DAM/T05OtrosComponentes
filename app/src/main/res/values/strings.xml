@@ -2,6 +2,7 @@
     <string name="app_name">T05OtrosComponentes</string>
     <string name="pedido_de_pizza">Pedido de Pizza</string>
     <string name="total">Total: %1$s €</string>
+    <string name="ejercicio_2">Ejercicio 2</string>
     <string-array name="ingredients_array">
         <item>Pepperoni</item>
         <item>Champiñones</item>

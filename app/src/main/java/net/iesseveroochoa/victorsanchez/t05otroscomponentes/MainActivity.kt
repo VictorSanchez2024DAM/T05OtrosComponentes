@@ -20,25 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             T05OtrosComponentesTheme {
 
-                    PedidoPizzaScreen()
 
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    T05OtrosComponentesTheme {
-        Greeting("Android")
     }
 }
