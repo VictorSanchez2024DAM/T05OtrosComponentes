@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
                 topBar = {
                     TopAppBar(
                         title = {
-                            Text(text = listaEjercicios[ejercicioSeleccionado]) // Mostrar el ejercicio actual en la TopBar
+                            Text(text = stringResource(R.string.app_name) + " - " + listaEjercicios[ejercicioSeleccionado]) // Mostrar el ejercicio actual en la TopBar
                         }
                     )
                 },
