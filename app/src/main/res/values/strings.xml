@@ -3,9 +3,19 @@
     <string name="pedido_de_pizza">Pedido de Pizza</string>
     <string name="total">Total: %1$s €</string>
     <string name="ejercicio_2">Ejercicio 2</string>
+    <string name="selecciona_un_ejercicio">Selecciona un ejercicio</string>
+    <string name="snackbar_message">Víctor Sánchez Sánchez - %1$s</string>
+    <string name="bot_n_flotante">Botón flotante</string>
+    <string name="men_desplegable">Menú desplegable</string>
+    <string name="has_elegido">Has elegido %1$s</string>
     <string-array name="ingredients_array">
         <item>Pepperoni</item>
         <item>Champiñones</item>
         <item>Queso Extra</item>
+    </string-array>
+
+    <string-array name="opciones">
+        <item>Ejercicio 1</item>
+        <item>Ejercicio 2</item>
     </string-array>
 </resources>
